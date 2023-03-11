@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&family=Roboto:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.1s ease-in-out;
+}
+
+/*TIPOGRAFÍAS Y ESTILOS*/
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.fw100 {
+    font-weight: 100;
+}
+
+.parrafo p {
+    font-size: 10pt;
+
+}
+
+
+.fw700 {
+    font-weight: 700;
+}
+
+
+/*-------COLORES----------*/
+.fondo {
+    background-color: #060614;
+}
+
+.azulos {
+    background-color: #323286;
+}
+
+.violeta {
+    background-color: #ac6bd6;
+}
+
+.blanco_t {
+    color: white;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.verde {
+    background-color: rgb(47, 81, 70);
+}
+
+.naranja {
+    background-color: orange;
+}
+
+#contenedor {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    padding: 10%;
+}
+
+#imagen {
+    background-image: url(../img/imagenvioleta.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+
+}
+
+/*------MEDIDAS DE CONTENEDORES-----*/
+/*anchos*/
+.w50 {
+    width: 50%;
+}
+
+/*alturas*/
+.h400 {
+    height: 400px;
+}
+
+
+#texto {}
+
+#imagen {}
+
+
+/*------ORGANIZACIÓN------*/
+/* .fl {
+    float: left;
+}
+
+.clearb {
+    clear: both;
+} */
+.pd20 {
+    padding: 5%;
+}
+
+.dflex {
+    display: flex;
+}
+
+.columna {
+    flex-direction: column;
+}
+
+.sb {
+    justify-content: space-between;
+}
+
+
+/*-------- MEDIA QUERIES--------*/
+/* PARA QUE SEA RESPONSIVE*/
+/* sección para establecer BREAKPOINTS*/
+
+/* @media screen and (max-width:1024px) {
+    .violeta{
+        background-color: rgb(238, 255, 0);
+        transform: scale(0.5);
+    }    
+} */
+
+
+@media screen and (max-width:667px) {
+    .flexdir {
+        flex-direction: column-reverse;
+    }
+
+    .w50 {
+        width: 100%;
+    }
+
+    .colm {
+        flex-direction: column;
+    }
+
+    #imagen.h400 {
+        height: 200px;
+    }
+   
+
+}
