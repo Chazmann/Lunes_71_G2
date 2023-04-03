@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&family=Roboto:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&family=Kanit:wght@100;400;700;900&family=Lato:ital,wght@0,300;0,400;0,700;1,700&family=Quando&family=Roboto:wght@100;400;700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease;
     /* font-family: 'Roboto', sans-serif; */
+}
+
+body {
+    background-color: #000000bf;
 }
 
 
@@ -15,10 +19,55 @@
     font-family: 'Lato', sans-serif !important;
 }
 
+.cinzel {
+    font-family: 'Cinzel', serif;
+}
+
+.quando {
+    font-family: 'Quando', serif;
+}
+
 .roboto {
     font-family: 'Roboto', sans-serif;
 }
 
+.kanit {
+    font-family: 'Kanit', sans-serif;
+}
+
+.fw100 {
+    font-weight: 100;
+}
+
+.fw300 {
+    font-weight: 300;
+}
+
+.fw700 {
+    font-weight: 700;
+}
+
+.fw700i {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.fw900 {
+    font-weight: 900;
+}
+
+.tx1 {
+    font-size: 1.6em;
+}
+
+.tx2 {
+    font-size: 1.3em;
+}
+
+.txcenter {
+    text-align: center;
+    color: white;
+}
 
 header {
     height: 80px;
@@ -30,6 +79,8 @@ header {
     /* padding: 0 10%; */
     padding: 0 10% 0 10%;
     line-height: 80px;
+    box-shadow: 0 5px 15px red;
+    z-index: 20;
 
 }
 
@@ -38,17 +89,23 @@ footer {
     bottom: 0;
     height: 60px;
     width: 100%;
-    background-color: #ffcd7084;
+    background-color: #2d2d2d;
+    color: white;
     padding: 0 10% 0 10%;
     line-height: 60px;
+    z-index: 20;
+ 
 }
 
 .contenedor {
     width: 80%;
     margin: auto;
     /* margin-bottom: 60px; */
-    background-color: #FAACA8;
-    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    background-color: #ff4db6;
+    background-image: linear-gradient(225deg, #ff4db6 0%, #784BA0 50%, #1c516f 100%);
+    padding: 14px;
+    box-shadow: inset 0 0 150px #000000bf, 0 0 15px 0px rgba(255, 255, 255, 0.495);
+    z-index: 10;
 }
 
 .fila {
@@ -96,7 +153,7 @@ footer {
     right: 20px;
 }
 
-.tarjeta .boton:hover{
+.tarjeta .boton:hover {
     transform: scale(1.05);
     box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.39);
 }
@@ -106,7 +163,7 @@ footer {
     margin-top: 10px;
 }
 
-.pd10{
+.pd10 {
     padding: 14px;
 }
 
@@ -115,43 +172,56 @@ footer {
 /* ACÁ VAN A ESTAR LAS PROPIEDADES PARA QUE SE VEA LINDO EN EL CELU */
 @media screen and (max-width:992px) {
 
-    .fila .tarjeta{
+    .fila .tarjeta {
         width: 100%;
     }
 
-    .flex{
+    .flex {
         flex-direction: column;
-        gap:20px;    }
-    header{
+        gap: 20px;
+    }
+
+    header {
         background: #C850C0;
         font-size: 8pt;
     }
 }
+
 @media screen and (max-width:792px) {
 
-  
-    header{
+
+    header {
         background: #000000;
         color: white;
-        font-size: 8pt;
+        padding: 0 14px;
+        height: auto;
+        line-height: 1.8em;
     }
-    .contenedor{
+
+    .contenedor {
         width: 100%;
         padding: 14px;
     }
-    .fila .tarjeta{
+
+    .fila .tarjeta {
         border-radius: 14px;
-        
+
     }
-    .tarjeta .img{
+
+    .tarjeta .img {
         border-radius: 10px 10px 0 0;
     }
+
+    .hidemobi {
+        display: none;
+    }
 }
+
 @media screen and (max-width:492px) {
 
-    header{
+    header {
         background: #50c864;
         font-size: 88pt;
     }
-   
+
 }
