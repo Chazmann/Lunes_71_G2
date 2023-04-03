@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&family=Tilt+Warp&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+/* ------------- TIPOGRAFÍAS-------*/
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.tilt {
+    font-family: 'Tilt Warp', cursive;
+}
+
+.fw100 {
+    font-weight: 100;
+}
+
+.fw700 {
+    font-weight: 700;
+}
+
+.centrar-tx {
+    text-align: center;
+
+}
+
+
+/*--------------TAMAÑOS---------*/
+body {background-color: rgb(23, 23, 23);}
+header{
+    background-color: blueviolet;
+    width: 100%;
+    padding: 2% 10%;
+
+}
+nav{
+    display: flex;
+
+}
+.wrapper{
+    background-color: rgb(53, 53, 53);
+    height: auto;
+    width: 100%;
+    padding: 2% 10%;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 2% 10%;
+    color: white;
+    background-color: rgb(141, 227, 174);
+
+}
+
