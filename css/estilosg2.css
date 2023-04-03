@@ -69,7 +69,10 @@ body {
     color: white;
 }
 
+.mb20{ margin-bottom: 28px!important;}
 header {
+    /* position: absolute;
+    top: 0; */
     height: 80px;
     width: 100%;
     background-color: #4158D0;
@@ -79,8 +82,9 @@ header {
     /* padding: 0 10%; */
     padding: 0 10% 0 10%;
     line-height: 80px;
-    box-shadow: 0 5px 15px red;
+    
     z-index: 20;
+
 
 }
 
@@ -104,8 +108,9 @@ footer {
     background-color: #ff4db6;
     background-image: linear-gradient(225deg, #ff4db6 0%, #784BA0 50%, #1c516f 100%);
     padding: 14px;
-    box-shadow: inset 0 0 150px #000000bf, 0 0 15px 0px rgba(255, 255, 255, 0.495);
+    box-shadow: inset 0 0 150px #000000bf, 0 0 15px 0px rgba(255, 255, 255, 0.3);
     z-index: 10;
+    border-radius: 14px;
 }
 
 .fila {
@@ -115,6 +120,7 @@ footer {
 
 .flex {
     display: flex;
+    gap: 30px!important;
 }
 
 .♫ {
@@ -123,7 +129,7 @@ footer {
 
 .fila .tarjeta {
     height: 450px;
-    width: 30%;
+    max-width: 33%;
     border-radius: 40px;
     background-color: rgb(43, 42, 42);
     color: white;
@@ -170,10 +176,23 @@ footer {
 
 
 /* ACÁ VAN A ESTAR LAS PROPIEDADES PARA QUE SE VEA LINDO EN EL CELU */
+@media screen and (max-width:1280px){
+    .contenedor {
+        width: 100%;
+    }
+    .mb20{
+        margin-bottom: 0!important;
+    }
+    .flex{
+        gap: 00px;
+    }
+
+}
+
 @media screen and (max-width:992px) {
 
     .fila .tarjeta {
-        width: 100%;
+        max-width: 100%;
     }
 
     .flex {
@@ -215,6 +234,7 @@ footer {
     .hidemobi {
         display: none;
     }
+    
 }
 
 @media screen and (max-width:492px) {
