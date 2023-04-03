@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&family=Roboto:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+
+
+/*------TIPOGRAFIAS-----*/
+.lato {
+    font-family: 'Lato', sans-serif !important;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header {
+    height: 80px;
+    width: 100%;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    margin: auto;
+    color: white;
+    /* padding: 0 10%; */
+    padding: 0 10% 0 10%;
+    line-height: 80px;
+
+}
+
+footer {
+    position: static;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #ffcd7084;
+    padding: 0 10% 0 10%;
+    line-height: 60px;
+}
+
+.contenedor {
+    width: 80%;
+    margin: auto;
+    /* margin-bottom: 60px; */
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+}
+
+.fila {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.♫ {
+    justify-content: space-around;
+}
+
+.fila .tarjeta {
+    height: 450px;
+    width: 30%;
+    border-radius: 40px;
+    background-color: rgb(43, 42, 42);
+    color: white;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.39);
+}
+
+.tarjeta .img {
+    width: 100%;
+    height: 180px;
+    background-color: #DDD6F3;
+    margin-bottom: 14px;
+    border-radius: 25px 25px 0 0;
+
+}
+
+.tarjeta .boton {
+    height: 40px;
+    padding: 10px 40px;
+    line-height: 20px;
+    background-color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.tarjeta .boton:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.39);
+}
+
+.tarjeta p {
+    line-height: 18pt;
+    margin-top: 10px;
+}
+
+.pd10{
+    padding: 14px;
+}
+
+
+
+/* ACÁ VAN A ESTAR LAS PROPIEDADES PARA QUE SE VEA LINDO EN EL CELU */
+@media screen and (max-width:992px) {
+
+    .fila .tarjeta{
+        width: 100%;
+    }
+
+    .flex{
+        flex-direction: column;
+        gap:20px;    }
+    header{
+        background: #C850C0;
+        font-size: 8pt;
+    }
+}
+@media screen and (max-width:792px) {
+
+  
+    header{
+        background: #000000;
+        color: white;
+        font-size: 8pt;
+    }
+    .contenedor{
+        width: 100%;
+        padding: 14px;
+    }
+    .fila .tarjeta{
+        border-radius: 14px;
+        
+    }
+    .tarjeta .img{
+        border-radius: 10px 10px 0 0;
+    }
+}
+@media screen and (max-width:492px) {
+
+    header{
+        background: #50c864;
+        font-size: 88pt;
+    }
+   
+}
