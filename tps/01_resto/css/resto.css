@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&family=Kanit:wght@100;400;700;900&family=Lato:ital,wght@0,300;0,400;0,700;1,700&family=Quando&family=Roboto:wght@100;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+}
+
+/*------TIPOGRAFIAS-----*/
+.lato {
+    font-family: 'Lato', sans-serif !important;
+}
+
+.cinzel {
+    font-family: 'Cinzel', serif;
+}
+
+.quando {
+    font-family: 'Quando', serif;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.kanit {
+    font-family: 'Kanit', sans-serif;
+}
+
+.fw100 {
+    font-weight: 100;
+}
+
+.fw300 {
+    font-weight: 300;
+}
+
+.fw700 {
+    font-weight: 700;
+}
+
+.fw700i {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.fw900 {
+    font-weight: 900;
+}
+
+.header{
+    position: relative;
+    height: 300px;
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/27/9f/45/bc/restaurant.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10%;
+    box-shadow: inset 0 0 150px 20px black;
+
+}
+.header .welcome{
+    position: absolute;
+    color: white;
+    height: 40px;
+    bottom: 60px;
+
+}
+.header .busqueda{
+    position: absolute;
+    width: 80%;
+    height: 40px;
+    bottom:-20px;
+    background-color:white;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
+}
+.busqueda .icono{
+    width: 40px;
+    height: 40px;
+    background-color:aquamarine;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+.busqueda input[type="search"]{
+    background-color: transparent;
+    height: 40px;
+    width: calc(100% - 80px);
+    
+}
