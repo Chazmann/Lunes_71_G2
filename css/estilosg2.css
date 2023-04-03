@@ -10,7 +10,10 @@
 
 body {
     background-color: #000000bf;
+    color: white;
 }
+/*---------COLORES---------*/
+.white-t{color: white;}
 
 
 
@@ -56,12 +59,15 @@ body {
     font-weight: 900;
 }
 
+.tx0 {
+    font-size: 20pt;
+}
 .tx1 {
-    font-size: 1.6em;
+    font-size:16pt;
 }
 
 .tx2 {
-    font-size: 1.3em;
+    font-size: 14pt;
 }
 
 .txcenter {
