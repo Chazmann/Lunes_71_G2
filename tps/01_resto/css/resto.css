@@ -9,7 +9,8 @@
 
 /*CONTENEDOR SCROLLBAR*/
 ::-webkit-scrollbar {
-    width: 5px;
+    height: 5px;
+    width: 2px;
     border-radius: 5px;
 }
 
@@ -21,13 +22,13 @@
 
 /* SELECTOR */
 ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: rgb(109, 223, 185);;
     border-radius: 5px;
 }
 
 /* SELECTOR hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: rgb(84, 171, 142);;
 }
 
 /*------TIPOGRAFIAS-----*/
