@@ -7,6 +7,29 @@
     transition: all 0.3s ease;
 }
 
+/*CONTENEDOR SCROLLBAR*/
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 5px;
+}
+
+/* FONDO BARRA SCROLL*/
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+
+}
+
+/* SELECTOR */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+/* SELECTOR hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 /*------TIPOGRAFIAS-----*/
 .lato {
     font-family: 'Lato', sans-serif !important;
@@ -27,8 +50,9 @@
 .kanit {
     font-family: 'Kanit', sans-serif;
 }
-.fs16{
-    font-size: 30pt!important;
+
+.fs16 {
+    font-size: 30pt !important;
 }
 
 .fw100 {
@@ -85,9 +109,7 @@
 
 }
 
-nav {
-
-}
+nav {}
 
 nav ul {
     height: 100px;
@@ -98,7 +120,7 @@ nav ul {
     overflow-x: scroll;
 }
 
-nav ul li { 
+nav ul li {
     flex: 0 0 200px;
     list-style: none;
     text-align: center;
@@ -107,7 +129,7 @@ nav ul li {
     /* flex-grow: 0;
  flex-shrink: 0;
  flex-basis: 250px; */
-    
+
 }
 
 
