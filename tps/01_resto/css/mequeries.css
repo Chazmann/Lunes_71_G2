@@ -1,5 +1,21 @@
-@media screen and (max-width:662px) {
+@media screen and (max-width:992px) {
     ::-webkit-scrollbar {
         height: 0px;
+        width: 0px;
+    }
+    .header{
+        height: 150px;
+    }
+    nav{width: 100%;}
+    .ofresto {width: 96%; margin: auto; }
+    .ofresto .lista {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        
+        
+      
+    }
+    .lista .resto{
+        width: 100%;
     }
 }
