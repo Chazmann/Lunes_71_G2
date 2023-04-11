@@ -6,29 +6,35 @@
     box-sizing: border-box;
     transition: all 0.3s ease;
 }
+/*----COLORES------*/
+.text2{
+    color: grey;
+}
+
 
 /*CONTENEDOR SCROLLBAR*/
 ::-webkit-scrollbar {
     height: 5px;
-    width: 2px;
+    width: 5px;
     border-radius: 5px;
 }
 
 /* FONDO BARRA SCROLL*/
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
-
 }
 
 /* SELECTOR */
 ::-webkit-scrollbar-thumb {
-    background: rgb(109, 223, 185);;
+    background: rgb(109, 223, 185);
+    ;
     border-radius: 5px;
 }
 
 /* SELECTOR hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(84, 171, 142);;
+    background: rgb(84, 171, 142);
+    ;
 }
 
 /*------TIPOGRAFIAS-----*/
@@ -179,4 +185,91 @@ nav ul li {
     transform: scale(1);
 
 
+}
+
+/*--------COMPONENTES RESTORANTES-----*/
+.ofresto {
+    background-color: rgb(248, 244, 244);
+    padding: 14px;
+}
+
+.ofresto .lista {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.lista .resto {
+   
+    /* overflow: hidden; */
+    flex: 1 0 180px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.087);
+}
+
+.resto .imagen {
+    height: 100%;
+    width: 40%;
+}
+
+.imagen img {
+    border-radius: 14px 0 0 14px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.resto .descrip {
+    border-radius: 14px;
+    height: 100%;
+    /* min-height: 180px; */
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.datosresto{
+    display: flex;
+    flex-direction: column;
+}
+
+.descrip .datos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.material-icons-outlined {}
+
+.valoracion,
+.rangoprecio {
+    font-size: 0.8em!important;
+   color:  rgb(84, 171, 142);
+}
+
+.rate{
+    position: absolute;
+    top:-5px;
+    right: -5px;
+    background-color:  rgb(84, 171, 142);
+    height: 50px;
+    width: 50px;
+    border-radius: 15px 0 15px 0px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 16pt;
+}
+
+/* tamaño iconos*/
+.sm{
+    font-size: 14pt!important;
+}
+.med{
+    font-size: 18pt;
 }

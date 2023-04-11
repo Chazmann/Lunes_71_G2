@@ -1,0 +1,5 @@
+@media screen and (max-width:662px) {
+    ::-webkit-scrollbar {
+        height: 0px;
+    }
+}
