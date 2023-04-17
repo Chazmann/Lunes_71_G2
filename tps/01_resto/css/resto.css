@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&family=Kanit:wght@100;400;700;900&family=Lato:ital,wght@0,300;0,400;0,700;1,700&family=Quando&family=Roboto:wght@100;400;700&display=swap');
 
 * {
@@ -148,7 +149,6 @@ nav ul li {
 }
 
 
-
 .busqueda .icono {
     width: 50px;
     height: 50px;
@@ -157,7 +157,8 @@ nav ul li {
     text-align: center;
     line-height: 50px;
     border-radius: 5px 0 0 5px;
-}
+}  
+
 
 .busqueda input[type="search"] {
     background-color: transparent;
