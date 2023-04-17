@@ -1,0 +1,28 @@
+.addcart {
+    display: flex;
+}
+
+.menos,
+.mas {
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+    
+}
+
+input[type="number"], p {
+    border: 0;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    line-height: 40px;
+    text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+/*SUBIR O BAJAR VALOR*/
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    margin: 0;
+}
