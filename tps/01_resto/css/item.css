@@ -18,10 +18,10 @@ input[type="number"], p {
     line-height: 40px;
     text-align: center;
 }
-
-input[type=number]::-webkit-inner-spin-button,
 /*SUBIR O BAJAR VALOR*/
-input[type=number]::-webkit-outer-spin-button {
+input[type="number"]::-webkit-inner-spin-button,
+
+input[type="number"]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     -moz-appearance: textfield;
     margin: 0;
