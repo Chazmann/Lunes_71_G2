@@ -16,27 +16,42 @@
 
     <title>Item Carta</title>
 </head>
+
 <body>
-  
-    <div class="addcart">
-        <button onclick="restar()" class="menos material-icons-outlined">remove</button>
-        <input type="number" min="1" max="6" step="1" value="1" id="cantidad">
-        <button onclick="sumar()" class="mas material-icons-outlined">add</button>
-    </div>
+    <section class="item_wrapper">
+        <header class="item">
+            <div class="detalle_imagen"></div>
+            <div class="detalle_precio">
+                <h2>Pollo al horno</h2>
+                <span class="rate">17.99</span>
 
-    <div class="addcart">
-        <input type="button" id="restarUno" class="menos material-icons-outlined" value="remove">
-        <p id="cant">1</p>
-        <input type="button" id="sumarUno" class="menos material-icons-outlined" value="add">
-    </div>
+            </div>
 
 
+        </header>
 
-   
+
+
+        <footer>
+            <div class="addcart">
+                <button onclick="restar()" class="menos material-icons-outlined">remove</button>
+                <input type="number" min="1" max="6" step="1" value="1" id="cantidad">
+                <button onclick="sumar()" class="mas material-icons-outlined">add</button>
+            </div>
+        </footer>
+    </section>
+
+
+
+
+
+
+
 
 
     <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
 
     <script src="js/acciones.js"></script>
 </body>
+
 </html>
